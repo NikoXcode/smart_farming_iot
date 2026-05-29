@@ -1,0 +1,18 @@
+# Ignore virtual environments
+venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VERY IMPORTANT: Ignore all data files so they don't bloat GitHub
+data/raw/*
+data/processed/*
+
+# (Optional) Keep the empty data folders in the repository structure
+!data/raw/.gitkeep
+!data/processed/.gitkeep
