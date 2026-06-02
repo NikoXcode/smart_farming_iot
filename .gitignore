@@ -16,3 +16,4 @@ data/processed/*
 # (Optional) Keep the empty data folders in the repository structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+.env
